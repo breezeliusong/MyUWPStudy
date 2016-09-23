@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="App1.Pages.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Hub Header="News">
+            <HubSection Header="Latest" MinWidth="100">
+                <DataTemplate>
+                    <!-- Content -->
+                    <TextBlock Text="the content" Style="{ThemeResource BodyTextBlockStyle}"/>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="Tech" IsHeaderInteractive="True" Background="#222222" MinWidth="250" RequestedTheme="Dark">
+                <DataTemplate>
+                    <!-- Content -->
+                    <TextBlock Text="my content"></TextBlock>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="Thirt" MinWidth="200">
+                <DataTemplate>
+                    <TextBlock Text="is there anything wrong?"/>
+                </DataTemplate>
+            </HubSection>
+            <!-- More sections -->
+            
+        </Hub>
+
+    </Grid>
+</Page>
+

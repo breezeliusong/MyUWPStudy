@@ -193,3 +193,8 @@ c:\users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\P
 C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\Dictionary1.xbf
 C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\Dictionary1.xaml
 C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\Dictionary1.xbf
+C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\bin\x86\Debug\Pages\Page1.xbf
+C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\Pages\Page1.g.i.cs
+C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\Pages\Page1.g.cs
+C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\Pages\Page1.xaml
+C:\Users\liusong\documents\visual studio 2015\Projects\App1\App1\obj\x86\Debug\Pages\Page1.xbf

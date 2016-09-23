@@ -248,14 +248,15 @@
     </Page.Resources>
 
     <StackPanel>
-        <FlipView x:Name="flipView1"  Height="200">
+        <FlipView x:ConnectionId='1' x:Name="flipView1"  Height="200">
             <Image Source="Assets/ph1.png"  />
             <Image Source="Assets/ph2.png"  />
         </FlipView>
         <TextBlock >Hello</TextBlock>
         <TextBlock Text="Hello World" ></TextBlock>
-        <Button Content="button" Name="Bt1"  Background="Gray" Click="Bt1_Click" ></Button>
+        <Button x:ConnectionId='2' Content="button" Name="Bt1"  Background="Gray"                   ></Button>
         <Button Content="i am a Button" Style="{StaticResource ButtonStyle1}" ></Button>
-        <TextBox x:Name="InputBox" Style="{StaticResource TextBoxStyle1}"   />
+        <TextBox x:ConnectionId='3' x:Name="InputBox" Style="{StaticResource TextBoxStyle1}"   />
     </StackPanel>
 </Page>
+
