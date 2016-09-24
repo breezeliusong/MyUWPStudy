@@ -32,5 +32,18 @@ namespace App1
         {
             this.Frame.Navigate(typeof(Page1));
         }
+
+        private void InputBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void InputBox_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                Windows.UI.ViewManagement.InputPane.GetForCurrentView().TryHide();
+            }
+
+        }
     }
 }

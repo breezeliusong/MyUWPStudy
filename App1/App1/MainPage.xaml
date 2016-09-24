@@ -256,6 +256,6 @@
         <TextBlock Text="Hello World" ></TextBlock>
         <Button Content="button" Name="Bt1"  Background="Gray" Click="Bt1_Click" ></Button>
         <Button Content="i am a Button" Style="{StaticResource ButtonStyle1}" ></Button>
-        <TextBox x:Name="InputBox" Style="{StaticResource TextBoxStyle1}"   />
+        <TextBox x:Name="InputBox" Style="{StaticResource TextBoxStyle1}" GotFocus="InputBox_GotFocus" KeyUp="InputBox_KeyUp" />
     </StackPanel>
 </Page>
