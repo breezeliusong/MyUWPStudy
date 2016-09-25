@@ -28,13 +28,13 @@
     <AppXManifest Include="E:\github\App1\App1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T03:41:58.045</Modified>
+      <Modified>2016-09-25T04:47:52.900</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\github\App1\App1\bin\x86\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2016-09-24T03:41:55.665</Modified>
+      <Modified>2016-09-25T04:47:51.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\breez\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\App1\App1\bin\x86\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
-      <Modified>2016-09-24T03:41:55.337</Modified>
+      <Modified>2016-09-25T04:42:38.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -505,11 +505,11 @@
     <AppxPackagedFile Include="E:\github\App1\App1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-09-24T03:41:57.517</Modified>
+      <Modified>2016-09-25T04:47:52.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\github\App1\App1\bin\x86\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2016-09-24T03:41:58.035</Modified>
+      <Modified>2016-09-25T04:47:52.892</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

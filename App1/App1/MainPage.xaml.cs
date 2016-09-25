@@ -30,7 +30,7 @@ namespace App1
 
         private void Bt1_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Page1));
+            MyFrame.Navigate(typeof(Page1));
         }
 
         private void InputBox_GotFocus(object sender, RoutedEventArgs e)
@@ -44,6 +44,34 @@ namespace App1
                 Windows.UI.ViewManagement.InputPane.GetForCurrentView().TryHide();
             }
 
+        }
+
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            AppBarButton appBar = sender as AppBarButton;
+            if (appBar != null)
+            {
+                string lable = appBar.Label;
+                switch (lable)
+                {
+                    case "Back":
+                        if (rootFrame == null) return;
+                        if (rootFrame.CanGoBack) rootFrame.GoBack();
+                        break;
+                    case "Forward":
+                        if (rootFrame == null) return;
+                        if (rootFrame.CanGoForward) rootFrame.GoForward();
+                        break;
+                }
+            }
+
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Page2));
         }
     }
 }

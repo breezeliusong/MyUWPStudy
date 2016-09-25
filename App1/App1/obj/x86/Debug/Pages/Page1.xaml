@@ -9,19 +9,19 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Hub Header="News">
-            <HubSection Header="Latest" MinWidth="100">
+            <HubSection Header="Latest" MinWidth="100" Height="100">
                 <DataTemplate>
                     <!-- Content -->
                     <TextBlock Text="the content" Style="{ThemeResource BodyTextBlockStyle}"/>
                 </DataTemplate>
             </HubSection>
-            <HubSection Header="Tech" IsHeaderInteractive="True" Background="#222222" MinWidth="250" RequestedTheme="Dark">
+            <HubSection Header="Tech" IsHeaderInteractive="True" Background="#222222" MinWidth="250" RequestedTheme="Dark" Height="100">
                 <DataTemplate>
                     <!-- Content -->
                     <TextBlock Text="my content"></TextBlock>
                 </DataTemplate>
             </HubSection>
-            <HubSection Header="Thirt" MinWidth="200">
+            <HubSection Header="Thirt" MinWidth="200" Height="100">
                 <DataTemplate>
                     <TextBlock Text="is there anything wrong?"/>
                 </DataTemplate>
